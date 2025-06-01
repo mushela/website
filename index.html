@@ -1,1 +1,114 @@
-<h1>Welcome to Mushela</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushela - Functional Mushroom Products</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #6b8e23, #3b5323);
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        .intro {
+            max-width: 800px;
+            margin: 2rem auto;
+            text-align: center;
+            padding: 0 1rem;
+        }
+        .intro h2 {
+            font-size: 2rem;
+            color: #6b8e23;
+            margin-bottom: 1rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+        .product-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            color: #3b5323;
+        }
+        .product-card p {
+            padding: 0 1rem 1rem;
+            font-size: 1rem;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mushela</h1>
+        <p>Unlock the Power of Functional Mushrooms</p>
+    </header>
+
+    <section class="intro">
+        <h2>Discover Wellness with Nature's Finest</h2>
+        <p>Mushela brings you premium functional mushroom products designed to elevate your health and energy. Explore our range of gummies, tinctures, and more to unlock your true potential.</p>
+    </section>
+
+    <section class="products">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product 1">
+            <h3>Reishi Gummies</h3>
+            <p>Boost your immunity and enhance relaxation with our Reishi Mushroom Gummies.</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product 2">
+            <h3>Lion's Mane Gummies</h3>
+            <p>Support cognitive health and mental clarity with our Lion's Mane Gummies.</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product 3">
+            <h3>Chaga Tincture</h3>
+            <p>Power up with antioxidants and improve vitality with our Chaga Mushroom Tincture.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mushela. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
